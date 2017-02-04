@@ -1,0 +1,415 @@
+body {
+    min-height: 1000px;
+    padding: 0;
+    position: relative;
+}
+
+@media (max-width: 1200px) {
+    body header {
+        background: url("../img/header-bg.jpg") no-repeat;
+        background-position: center center;
+        background-size: auto 100%;
+    }
+
+    div.img-box img, .img-end > p {
+        width: 124px;
+    }
+
+    div.vert-line {
+        height: calc(100% + 100px);
+    }
+
+    div.img-end p {
+        font: bolder 18px/30px "microsoft yahei";
+        padding: 20px 0 0 0;
+        width: 124px;
+        height: 124px;
+    }
+
+}
+
+@media (max-width: 980px) {
+    div.img-box img, .img-end > p {
+        width: 86px;
+    }
+
+    div.img-end p {
+        font: bold 14px/18px "microsoft yahei";
+        padding: 10px 0 0 0;
+        width: 86px;
+        height: 86px;
+    }
+
+    .img-box {
+        height: 100%;
+    }
+
+    div.vert-line {
+        height: calc(100% + 200px);
+    }
+}
+
+@media (max-width: 768px) {
+    body header {
+        min-height: 500px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .vert-line {
+        height: calc(100% + 100px);
+    }
+
+    header .welcome {
+        font: italic 25px/50px "Microsoft yahei";
+        padding-top: 100px;
+    }
+
+    header .nicep {
+        font: bold 50px/70px "microsoft yahei";
+        margin: 40px 0;
+    }
+
+    div.vert-line {
+        height: calc(100% + 100px);
+    }
+
+    .dis-box h4 {
+        margin-top: 0;
+    }
+
+    div.fa {
+        padding-bottom: 30px;
+    }
+
+    div.img-box img {
+        width: 66px;
+    }
+
+    div.img-box, div.img-end {
+        position: absolute;
+        left: 0px;
+        top: 0;
+        width: 150px;
+
+    }
+
+    div.img-end p {
+        font: 12px/12px "microsoft yahei";
+        padding: 10px 0 0 0;
+        width: 66px;
+        height: 66px;
+    }
+
+    .dis-box {
+        width: calc(100% - 100px);
+        margin-left: 100px;
+        text-align: left;
+    }
+}
+
+/*header部分*/
+nav {
+    padding: 10px;
+}
+
+#header .nav li a {
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#header .nav li a:hover {
+    color: #fed136;
+}
+
+#header .nav li.active a {
+    background-color: #fed136;
+}
+
+#header .nav li.active a:hover {
+    color: #fff;
+    background-color: #fedd1f;
+}
+
+header {
+    height: 750px;
+    text-align: center;
+    color: #fff;
+    line-height: 2;
+    background: url("../img/header-bg.jpg") no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+}
+
+.welcome {
+    font: italic 40px/100px "Microsoft yahei";
+    padding-top: 100px;
+}
+
+.nicep {
+    font: bold 75px/150px "microsoft yahei";
+    margin: 50px 0;
+}
+
+.more-btn {
+    background-color: #fed136;
+    color: #fff;
+    font-size: 18px;
+}
+
+/*header结束*/
+
+/*section部分*/
+section {
+    padding: 150px 0;
+}
+
+.service {
+
+}
+
+section > div > .text-muted {
+    line-height: 40px;
+    font-size: 16px;
+    font-style: italic;
+    padding-bottom: 70px;
+}
+
+.portfolid > div > div .text-muted {
+    font-style: italic;
+}
+
+.portfolid {
+    background-color: #eee;
+}
+
+.portfolid .thumbnail {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    border: none;
+    padding: 0;
+}
+
+.rela {
+    position: relative;
+}
+
+.rela img {
+    width: 100%;
+}
+
+.rela:hover a {
+    display: block;
+}
+
+.rela a {
+    display: none;
+    color: #fff;
+    font: 50px 'microsoft yahei';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 202, 104, 0.9);
+    left: 0;
+    top: 0;
+}
+
+.rela a i {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    left: 50%;
+    margin-left: -25px;
+
+}
+
+.item {
+    position: relative;
+    height: 100%;
+}
+
+.img-box img, .img-end > p {
+    border: 5px solid #eee;
+    width: 156px;
+}
+
+.img-end > p {
+    font: bolder 20px/30px "microsoft yahei";
+    background: #fed136;
+    color: #fff;
+    height: 156px;
+    border-radius: 50%;
+    padding: 20px;
+    display: inline-block;
+}
+
+.fa {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.img-box, .img-end {
+    text-align: center;
+}
+
+.img-box {
+    padding: 0;
+}
+
+.img-box, .vert-line {
+    height: 100%;
+}
+
+.vert-line {
+    position: absolute;
+    left: 49%;
+    border: 1px solid #eee;
+}
+
+.links a {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+
+    color: #fff;
+    background: #000;
+    border-radius: 50%;
+}
+
+.links a:hover {
+    background: #fed136;
+    color: #fff;
+}
+
+.team {
+    background: #eee;
+}
+
+.team .thumbnail {
+    border: none;
+    background: #eee;
+}
+
+.team .thumbnail img {
+    border: 5px solid #fff;
+}
+
+.pictures {
+    text-align: center;
+    line-height: 100px;
+    padding: 25px;
+}
+
+/*contact部分*/
+.contact {
+    background: #000 url('../img/map-image.png') no-repeat;
+    color: #fff;
+}
+
+.contact input.form-control {
+
+    height:65px;
+}
+
+.contact .btn {
+    padding: 20px 30px;
+    font: bold 20px "Microsoft yahei";
+    background: #fed136;
+}
+
+form.form > div {
+    position: relative;
+    padding: 6px;
+}
+
+form.form > div > p {
+    position: absolute;
+    display: none;
+}
+
+form.form > div > input, textarea {
+    text-indent: 1em;
+}
+
+.text-p {
+    text-align: left;
+    display: none;
+}
+
+/*contact部分 end! */
+
+/*footer 部分*/
+footer {
+    line-height: 70px;
+    font-size: 14px;
+}
+
+.footer-line div {
+    vertical-align: middle;
+}
+
+.footer-line div .glyphicon {
+    color: #fff;
+    border-radius: 50%;
+    background: #000;
+    font-size: 27px;
+    padding: 8px;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.send {
+    margin-top: 20px;
+}
+
+.footer-line div .glyphicon:hover {
+    background: #fed136;
+}
+
+.last-div a {
+    color: #fed136;
+    font-size: 14px;
+}
+
+#myModal .modal-content, #myModal .modal-dialog {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#myModal .modal-content {
+    padding: 40px;
+}
+
+#myModal img {
+    width: 100%;
+}
+
+#myModal .modal-content > {
+
+    margin: 40px;
+}
+
+.modal-body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#myModal .modal-content > div > p {
+
+    line-height: 40px;
+    margin: 40px auto;
+}
+
+#myModal .btn {
+    font: bold 25px/50px "microsoft yahei";
+    color: #fff;
+    background: #fed136;
+}
+
+#myModal span {
+    font-size: 60px;
+}
