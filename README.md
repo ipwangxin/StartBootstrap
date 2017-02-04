@@ -1,2 +1,3 @@
 # StartBootstrap
-my bootstrap exercise
+this is my bootstrap exercise
+it's project Bootstrap
